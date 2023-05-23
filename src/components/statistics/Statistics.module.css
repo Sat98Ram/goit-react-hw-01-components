@@ -1,0 +1,33 @@
+.statistics {
+  text-align: center;
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 5px 25px rgb(212, 221, 232);
+  margin-top: 24px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #2c3846;
+  border-bottom: 1px solid #e7ecf2;
+  margin: 0;
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+
+.statlist {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: max-content;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
