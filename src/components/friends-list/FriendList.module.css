@@ -19,3 +19,18 @@
   box-shadow: 3px 5px 25px rgb(212, 221, 232);
   border-radius: 8px;
 }
+
+.green {
+  display: block;
+  height: 16px;
+  width: 16px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.red {
+  height: 16px;
+  width: 16px;
+  background-color: red;
+  border-radius: 50%;
+}

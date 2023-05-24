@@ -25,9 +25,34 @@
   grid-auto-flow: column;
   grid-template-columns: max-content;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .item {
   display: flex;
   flex-direction: column;
+  padding: 16px 16px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.item:first-child {
+  background-color: #4ec6f9;
+}
+
+.item:nth-child(2) {
+  background-color: #a43cf3;
+}
+
+.item:nth-child(3) {
+  background-color: #e74b67;
+}
+
+.item:nth-child(4) {
+  background-color: #c04be7;
+}
+
+.item:last-child {
+  background-color: #1eb9c5;
 }
